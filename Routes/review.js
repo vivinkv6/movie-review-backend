@@ -1,13 +1,18 @@
 const express = require("express");
-const {postMovieReview,getMovies,getMovie,updateMovie,deleteMovie}=require('../controllers/movieController');
+const {
+  postMovieReview,
+  getMovies,
+  getMovie,
+  updateMovie,
+  deleteMovie,
+} = require("../controllers/movieController");
 const router = express.Router();
-
 
 //get all movie reviews
 router.get("/", getMovies);
 
 //get a single movie review
-router.get("/:id",getMovie);
+router.get("/:id", getMovie);
 
 //post a review
 router.post("/", postMovieReview);
