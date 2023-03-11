@@ -9,7 +9,6 @@ const cors = require('cors');
 const corsOptions = {
   origin: 'https://movie-review.cyclic.app/api',
   optionsSuccessStatus: 200,
-  methods: ['GET,'POST', 'PUT', 'DELETE']
 };
 
 
