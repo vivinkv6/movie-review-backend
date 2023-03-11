@@ -6,7 +6,7 @@ const app = express();
 const cors = require('cors');
 
 const corsOptions = {
-  origin: 'https://movie-review.cyclic.app/api',
+  origin: 'https://movie-review.cyclic.app',
   optionsSuccessStatus: 200
 }
 
