@@ -7,7 +7,7 @@ const cors = require('cors');
 
 
 const corsOptions = {
-  origin: 'https://movie-review.cyclic.app/api',
+  origin: 'https://moviesreviews.vercel.app/',
   optionsSuccessStatus: 200,
 };
 
